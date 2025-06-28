@@ -20,17 +20,17 @@ export default function NavBar() {
           </div>
           <div className="md:block hidden">
             <ul className="flex gap-3  capitalize">
-              <li className=" cursor-pointer"> <Link to="/">Home</Link> </li>
-              <li className=" cursor-pointer"> <Link to="products">Product</Link> </li>
-              <li className=" cursor-pointer"> <Link to="categories">Category</Link> </li>
-              <li className=" cursor-pointer"> <Link to="cart">Cart</Link> </li>
+              <li className=" cursor-pointer"> <Link to="/E-Commerce2">Home</Link> </li>
+              <li className=" cursor-pointer"> <Link to="/E-Commerce2/products">Product</Link> </li>
+              <li className=" cursor-pointer"> <Link to="/E-Commerce2/categories">Category</Link> </li>
+              <li className=" cursor-pointer"> <Link to="/E-Commerce2/cart">Cart</Link> </li>
             </ul>
           </div>
           <div className="md:flex  hidden">
           <ul className="flex gap-3  capitalize">
               <li className=" cursor-pointer flex items-center"> 
-              <FaRegUserCircle className="mx-1" /> <Link to="login">  Login</Link>  </li>
-              <li className=" cursor-pointer flex items-center"> <FaRegUserCircle className="mx-1" /> <Link to="register">  Register</Link> </li>
+              <FaRegUserCircle className="mx-1" /> <Link to="/E-Commerce2/login">  Login</Link>  </li>
+              <li className=" cursor-pointer flex items-center"> <FaRegUserCircle className="mx-1" /> <Link to="/E-Commerce2/register">  Register</Link> </li>
             </ul>
           </div>
           <div className="cursor-pointer relative text-2xl md:hidden block">
